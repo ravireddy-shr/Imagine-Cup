@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopkeeper Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopkeeper Dashboard</h1>
+        <form id="product-form">
+            <label for="shop-select">Select Shop:</label>
+            <select id="shop-select" required>
+                <option value="">Choose a shop</option>
+            </select>
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" required>
+            <button type="submit">Add Product</button>
+        </form>
+        <div id="shop-products"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="shopkeeper.js"></script>
+</body>
+</html>

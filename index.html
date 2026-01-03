@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Find Nearby Shops with Your Product</h1>
+        <div id="search-container">
+            <input type="text" id="product-search" placeholder="Enter product name (e.g., Apple)">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="map"></div>
+        <div id="results"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
